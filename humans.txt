@@ -4,12 +4,10 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Maxx Lehmann -- Developer -- mglehman@mtu.edu
+    Tim Buerger -- Designer
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    jQuery, Modernizr, Normalize.css
