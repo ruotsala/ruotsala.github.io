@@ -99,17 +99,18 @@ html, body {
     height: 100%;
 }
 
-#navbar {
+.headfoot {
+    display: table;
+    padding: 1.5vh 0;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    width: 100%;
 }
 
 .navItems {
     width: 20%;
-    margin: 0;
-    padding: 1% 0;
-    float: left;
-    text-align: center;
-    background-color: darkblue;
-    color: white;
+    display: table-cell;
 }
 
 .navItems:hover {
@@ -121,12 +122,23 @@ html, body {
     color: white;
     font-size: 15vw;
     text-align: center;
-    padding: 12% 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("../img/DSC09499.JPG");
+    padding: 20% 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/DSC09499.JPG");
     background-size: cover;
-    font-weight: 100;
+    line-height: 1;
 }
 
+.boxes {
+    width: 76%;
+    margin: 5% auto;
+    border-style: solid;
+    padding: 2%;
+}
+
+.boxTitle {
+    font-size: 1.25em;
+    font-weight: 600;
+}
 
 
 /* ==========================================================================
