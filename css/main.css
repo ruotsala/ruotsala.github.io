@@ -101,31 +101,33 @@ html, body {
 
 .headfoot {
     display: table;
-    padding: 1.5vh 0;
     text-align: center;
-    background-color: darkblue;
-    color: white;
+    background-color: #222;
+    color: grey;
     width: 100%;
 }
 
 .navItems {
+    padding: .25em 0;
     width: 20%;
     display: table-cell;
+    font-size: 1.25em;
 }
 
 .navItems:hover {
-    background-color: blue;
+    color: lightgrey;
     cursor: pointer;
 }
 
 #logo {
     color: white;
-    font-size: 15vw;
+    font-size: 11vw;
     text-align: center;
-    padding: 20% 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/DSC09499.JPG");
+    padding: 25% 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/DSC09577.JPG");
     background-size: cover;
-    line-height: 1;
+    line-height: 1.1;
+    text-shadow: 0px 0px 10px black;
 }
 
 .boxes {
