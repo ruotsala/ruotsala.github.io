@@ -144,13 +144,17 @@ html, body {
 .boxes {
     width: 76%;
     margin: 5% auto;
-    border-style: solid;
     padding: 2%;
 }
 
 .boxTitle {
     font-size: 1.25em;
     font-weight: 600;
+}
+
+.boxContent {
+    border-top: solid #444 2px;
+    padding: 1%;
 }
 
 
