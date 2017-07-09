@@ -134,7 +134,6 @@ html, body {
     background-size: cover;
     line-height: 1.1;
     text-shadow: 0px 0px 10px black;
-    box-shadow:#222 0 -1px 3px -1px inset;
 }
 
 #logoText {
@@ -146,9 +145,13 @@ html, body {
     padding: 5% 10%;
 }
 
+.light {
+    box-shadow:#222 0 0 5px -2px;
+}
+
 .dark {
-    background-color: #ddd;
-    box-shadow:#222 0 1px 3px -1px inset;
+    background-color: #eee;
+    box-shadow:#222 0 0 5px -1px inset;
 }
 
 .boxTitle {
@@ -157,7 +160,7 @@ html, body {
 }
 
 .boxContent {
-    border-top: solid #444 2px;
+    border-top: solid #444 1px;
     padding: 1%;
 }
 
