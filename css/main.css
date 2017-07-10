@@ -102,8 +102,8 @@ html, body {
 .headfoot {
     display: table;
     text-align: center;
-    background-color: rgba(2,2,2,0.8);
-    color: grey;
+    background-color: black;
+    color: darkgrey;
     width: 100%;
     z-index: 10;
 }
@@ -121,7 +121,7 @@ html, body {
 }
 
 .navItems:hover {
-    color: lightgrey;
+    color: #eef;
     cursor: pointer;
 }
 
@@ -137,7 +137,7 @@ html, body {
 }
 
 #logo {
-    margin-top: 15%;
+    margin-top: 30vh;
     width: 80%;
 }
 
