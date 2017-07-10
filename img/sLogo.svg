@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="840px" height="467px" viewBox="0 0 840 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="790px" height="346px" viewBox="0 0 790 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>ruotsalaLogo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polyline id="Line" stroke="#fff" stroke-width="5" stroke-linecap="square" points="784.5 271 511.607728 255 416.037861 207 319.892272 255.5 47 271.5 319.892272 287.5 416.037861 336 511.607728 288 784.5 272"></polyline>
-        <text id="Ruotsala" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="225" font-weight="normal" fill="#fff">
-            <tspan x="51" y="188">Ruotsala</tspan>
+        <polyline id="Line" stroke="#fff" stroke-width="5" stroke-linecap="square" points="760.5 198 487.607728 182 392.037861 134 295.892272 182.5 23 198.5 295.892272 214.5 392.037861 263 487.607728 215 760.5 199"></polyline>
+        <text id="Ruotsala" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="144" font-weight="normal" letter-spacing="3" fill="#fff">
+            <tspan x="153.597656" y="119">Ruotsal</tspan>
+            <tspan x="571.933594" y="119">a</tspan>
         </text>
         <text id="R" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="115" font-weight="normal" fill="#fff">
-            <tspan x="368" y="290">R</tspan>
+            <tspan x="344" y="217">R</tspan>
         </text>
         <text id="C" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="48" font-weight="normal" fill="#fff">
-            <tspan x="433" y="283">C</tspan>
+            <tspan x="409" y="210">C</tspan>
         </text>
         <text id="C" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="40" font-weight="normal" fill="#fff">
-            <tspan x="398" y="319">C</tspan>
+            <tspan x="374" y="246">C</tspan>
         </text>
-        <text id="Construction-Compani" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="80" font-weight="normal" letter-spacing="2.22222209" fill="#fff">
-            <tspan x="51" y="399">Construction Companie</tspan>
-            <tspan x="753.486976" y="399" letter-spacing="1.77777767">s</tspan>
+        <text id="Construction-Compani" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="60" font-weight="normal" letter-spacing="1.66666663" fill="#fff">
+            <tspan x="119.278212" y="311">Construction Companie</tspan>
+            <tspan x="646.143446" y="311" letter-spacing="1.38888884">s</tspan>
         </text>
-        <rect id="Rectangle" stroke="#fff" stroke-width="10" x="5" y="5" width="829" height="457"></rect>
+        <rect id="Rectangle" stroke="#fff" stroke-width="8" x="4" y="4" width="781" height="337"></rect>
     </g>
 </svg>
