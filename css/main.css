@@ -109,7 +109,13 @@ html, button, input, select, textarea,
     top: 0;
     width: 90vw;
     text-align: right;
-    font-size: 1em;
+    font-size: 1.25em;
+}
+
+@media (max-width: 568px) {
+  #head {
+    text-align: center;
+  }
 }
 
 .headfoot {
