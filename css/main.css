@@ -129,7 +129,7 @@ html, button, input, select, textarea,
 }
 
 a {
-    color: #aaa;
+    color: #666;
     text-decoration: none;
 }
 
@@ -138,23 +138,30 @@ a:hover {
 }
 
 .landing {
-    color: white;
-    font-size: 11vw;
+    background-size: cover !important;
+    height: 100%;
     text-align: center;
-    line-height: 1.1;
-    text-shadow: 0px 0px 10px black;
 }
 
 #homeLanding {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/landing.jpg");
-    background-size: cover;
-    height: 100%;
 }
 
 #contactLanding {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/landing.jpg");
-    background-size: cover;
-    height: 100%;
+    background: url("/img/bay.jpg");
+}
+
+#contact {
+    position: relative;
+    top: 25vh;
+    background-color: #ddd;
+    padding: 1px 1em;
+    width: 75vw;
+    margin: auto;
+    min-height: 50vh;
+    text-align: left;
+    box-shadow:#222 0 0 .2em;
+    font-size: .9em;
 }
 
 #logo {
