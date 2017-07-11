@@ -107,11 +107,15 @@ html, button, input, select, textarea,
 #head {
     position: fixed;
     top: 0;
-    background-color: black;
-    font-size: 1.25em;
-    padding: .15em 5%;
     text-align: right;
+    font-size: 1.25em;
+}
+
+.headfoot {
+    background-color: black;
     width: 90%;
+    padding: .2em 5%;
+    color: #aaa;
 }
 
 #navLogo {
