@@ -109,7 +109,6 @@ html, button, input, select, textarea,
     top: 0;
     width: 90vw;
     text-align: right;
-    font-size: 1.5em;
 }
 
 @media (max-width: 568px) {
@@ -122,6 +121,7 @@ html, button, input, select, textarea,
     background-color: black;
     padding: .2em 5vw;
     color: #aaa;
+    font-size: 1.5em;
 }
 
 #navLogo {
@@ -153,15 +153,14 @@ a:hover {
 
 #contact {
     position: relative;
-    top: 25vh;
+    top: 7em;
+    width:60vh;
+    max-width: 80vw;
     background-color: #ddd;
     padding: 1px 1em;
-    width: 75vw;
     margin: auto;
-    min-height: 50vh;
     text-align: left;
     box-shadow:#222 0 0 .2em;
-    font-size: .9em;
 }
 
 #logo {
