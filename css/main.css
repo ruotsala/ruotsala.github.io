@@ -101,37 +101,30 @@ html, body {
 
 html, button, input, select, textarea,
     .pure-g [class *= "pure-u"] {
-        font-family: "Gill Sans MT", "Helvetica", serif;
+        font-family: "Gill Sans MT", "Helvetica", sans-serif;
     }
-
-.headfoot {
-    display: table;
-    text-align: center;
-    background-color: black;
-    color: darkgrey;
-    width: 100%;
-    z-index: 10;
-}
 
 #head {
     position: fixed;
     top: 0;
+    background-color: black;
+    font-size: 1.25em;
+    padding: .15em 5%;
+    text-align: right;
+    width: 90%;
 }
 
 #navLogo {
-    height: 1.5em;
+    height: 1.25em;
 }
 
-.navItems {
-    padding: .25em 0;
-    width: 25%;
-    display: table-cell;
-    font-size: 1.25em;
+a {
+    color: #aaa;
+    text-decoration: none;
 }
 
-.navItems:hover {
-    color: #eef;
-    cursor: pointer;
+a:hover {
+    color: #004055;
 }
 
 #landing {
@@ -180,6 +173,10 @@ html, button, input, select, textarea,
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+.center {
+    text-align: center;
+}
 
 /*
  * Hide visually and from screen readers
