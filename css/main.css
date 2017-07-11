@@ -147,12 +147,16 @@ a:hover {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/landing.jpg");
 }
 
-#contactLanding {
-    background: url("/img/bay.jpg");
-}
-
 #aboutLanding {
     background: url("/img/about.jpg");
+}
+
+#workLanding {
+    background: url("/img/work.jpg");
+}
+
+#contactLanding {
+    background: url("/img/bay.jpg");
 }
 
 #contact {
