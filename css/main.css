@@ -151,6 +151,10 @@ a:hover {
     background: url("/img/bay.jpg");
 }
 
+#aboutLanding {
+    background: url("/img/about.jpg");
+}
+
 #contact {
     position: relative;
     top: 7em;
