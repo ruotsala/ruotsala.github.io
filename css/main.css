@@ -99,6 +99,11 @@ html, body {
     height: 100%;
 }
 
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        font-family: "Gill Sans MT", "Helvetica", serif;
+    }
+
 .headfoot {
     display: table;
     text-align: center;
