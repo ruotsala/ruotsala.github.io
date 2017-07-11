@@ -178,6 +178,12 @@ a:hover {
     padding: .5em;
 }
 
+.awards {
+    width: 90%;
+    margin: 1em auto;
+    vertical-align: middle;
+}
+
 
 /* ==========================================================================
    Helper classes
