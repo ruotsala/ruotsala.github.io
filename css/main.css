@@ -109,7 +109,7 @@ html, button, input, select, textarea,
     top: 0;
     width: 90vw;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 @media (max-width: 568px) {
@@ -185,6 +185,10 @@ a:hover {
 
 .center {
     text-align: center;
+}
+
+.left {
+    text-align: left;
 }
 
 /*
