@@ -203,13 +203,23 @@ a:hover {
 }
 
 
-/* Work Classes ============================================================= */
+/* About Classes ============================================================= */
 
 .aboutBoxes {
     padding: .5em;
 }
 
+.about-img {
+    padding-top: .5em;
+}
 
+h5 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    color: #383838;
+    font-weight: 100;
+}
 
 /* ==========================================================================
    Helper classes
