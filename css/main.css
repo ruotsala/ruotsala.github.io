@@ -111,12 +111,6 @@ html, button, input, select, textarea,
     text-align: right;
 }
 
-@media (max-width: 568px) {
-  #head {
-    text-align: center;
-  }
-}
-
 .headfoot {
     background-color: black;
     padding: .2em 5vw;
@@ -223,6 +217,14 @@ h5 {
     text-align: left;
 }
 
+/* Resize Classes ========================================================= */
+
+@media (max-width: 568px) {
+  #head {
+    text-align: center;
+  }
+
+}
 
 /* ==========================================================================
    Helper classes
