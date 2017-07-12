@@ -147,28 +147,8 @@ a:hover {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/landing.jpg");
 }
 
-#aboutLanding {
-    background: url("/img/about.jpg");
-}
-
 #workLanding {
     background: url("/img/work.jpg");
-}
-
-#contactLanding {
-    background: url("/img/bay.jpg");
-}
-
-#contact {
-    position: relative;
-    top: 7em;
-    width:60vh;
-    max-width: 80vw;
-    background-color: #ddd;
-    padding: 1px 1em;
-    margin: auto;
-    text-align: left;
-    box-shadow:#222 0 0 .2em;
 }
 
 #logo {
@@ -205,6 +185,10 @@ a:hover {
 
 /* About Classes ============================================================= */
 
+#aboutLanding {
+    background: url("/img/about.jpg");
+}
+
 .aboutBoxes {
     padding: .5em;
 }
@@ -220,6 +204,25 @@ h5 {
     color: #383838;
     font-weight: 100;
 }
+
+/* Contact Classes ========================================================= */
+
+#contactLanding {
+    background: url("/img/bay.jpg");
+}
+
+#contact {
+    position: relative;
+    top: 7em;
+    width:60vh;
+    max-width: 80vw;
+    /* background-color: #ddd; */
+    background-color: white;
+    padding: 1px 1em;
+    margin: auto;
+    text-align: left;
+}
+
 
 /* ==========================================================================
    Helper classes
