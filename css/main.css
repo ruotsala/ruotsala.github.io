@@ -119,6 +119,10 @@ html, button, input, select, textarea,
     z-index: 10;
 }
 
+.spacer {
+    height: 2.3em;
+}
+
 #navLogo {
     height: 1.4em;
 }
@@ -179,10 +183,6 @@ a:hover {
 
 
 /* About Classes ============================================================= */
-
-#aboutLanding {
-    background: url("/img/about.jpg");
-}
 
 .aboutBoxes {
     padding: .5em;
