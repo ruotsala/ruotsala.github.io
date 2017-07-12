@@ -121,7 +121,8 @@ html, button, input, select, textarea,
     background-color: black;
     padding: .2em 5vw;
     color: #aaa;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    z-index: 10;
 }
 
 #navLogo {
@@ -171,7 +172,7 @@ a:hover {
 }
 
 .boxTitle {
-    font-size: 1.25em;
+    font-size: 1.7em;
     font-weight: 400;
     text-align: center;
 }
@@ -213,10 +214,9 @@ h5 {
 
 #contact {
     position: relative;
-    top: 7em;
-    width:60vh;
+    top: 3em;
+    width: 80vh;
     max-width: 80vw;
-    /* background-color: #ddd; */
     background-color: white;
     padding: 1px 1em;
     margin: auto;
