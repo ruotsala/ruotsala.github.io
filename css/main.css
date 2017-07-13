@@ -101,7 +101,7 @@ html, body {
 
 html, button, input, select, textarea,
     .pure-g [class *= "pure-u"] {
-        font-family: "Gill Sans MT", "Helvetica", sans-serif;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     }
 
 /* Helper Classes ============================================================= */
