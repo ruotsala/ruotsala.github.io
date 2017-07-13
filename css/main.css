@@ -102,39 +102,20 @@ textarea {
     width: 100%;
 }
 
-/* Global Classes ============================================================= */
-
-html, body {
-    height: 100%;
+.center {
+    text-align: center;
 }
 
-html, button, input, select, textarea,
-    .pure-g [class *= "pure-u"] {
-        font-family: "Gill Sans MT", "Helvetica", sans-serif;
-    }
-
-#head {
-    position: fixed;
-    top: 0;
-    width: 94vw;
-    text-align: right;
-    box-shadow: 0 1px 3px rgba(0,0,0, 0.50);
+.left {
+    text-align: left;
 }
 
-.headfoot {
-    background-color: black;
-    padding: .8em 3vw;
-    color: #aaa;
-    font-size: .9em;
-    z-index: 10;
-}
-
-.spacer {
-    height: 2.3em;
-}
-
-#navLogo {
-    height: 1.4em;
+h5 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    color: #383838;
+    font-weight: 100;
 }
 
 a {
@@ -146,10 +127,48 @@ a:hover {
     color: #aaa;
 }
 
+/* Global Classes ============================================================= */
+
+html, body {
+    height: 100%;
+}
+
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        font-family: "Gill Sans MT", "Helvetica", sans-serif;
+    }
+
+.headfoot {
+    background-color: #222;
+    padding: .8em 3vw;
+    color: #aaa;
+    font-size: .9em;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.50);
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    text-align: right;
+}
+
+.spacer {
+    height: 2.3em;
+}
+
+#navLogo {
+    height: 1.4em;
+}
+
 .landing {
     background-size: cover !important;
     text-align: center;
 }
+
+
+/* Home Classes ============================================================= */
 
 #homeLanding {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/landing.jpg");
@@ -159,18 +178,20 @@ a:hover {
     z-index: -1;
 }
 
-#workLanding {
-    background: url("/img/work.jpg");
-}
-
 #logo {
     margin-top: 32vh;
-    width: 50vh;
+    width: 80vh;
     max-width: 80vw;
 }
 
 #content {
     box-shadow: 0 5px 5px 5px rgba(0,0,0, 0.50);
+}
+
+.boxTitle {
+    font-size: 1.45em;
+    color: #045;
+    text-align: center;
 }
 
 .boxes {
@@ -183,12 +204,6 @@ a:hover {
 
 .dark {
     background-color: #f1f1f1;
-}
-
-.boxTitle {
-    font-size: 1.45em;
-    color: #045;
-    text-align: center;
 }
 
 .awards {
@@ -208,13 +223,13 @@ a:hover {
     padding-top: .5em;
 }
 
-h5 {
-    font-size: 2.5em;
-    margin: 0;
-    text-align: center;
-    color: #383838;
-    font-weight: 100;
+
+/* About Classes ============================================================= */
+
+#workLanding {
+    background: url("/img/work.jpg");
 }
+
 
 /* Contact Classes ========================================================= */
 
@@ -242,14 +257,6 @@ h5 {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
-.center {
-    text-align: center;
-}
-
-.left {
-    text-align: left;
-}
 
 /*
  * Hide visually and from screen readers
