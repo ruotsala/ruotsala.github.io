@@ -161,12 +161,10 @@ a:hover {
 }
 
 .light {
-    box-shadow:#222 0 0 3px -2px;
+    background-color: #f1f1f1;
 }
 
 .dark {
-    background-color: #f1f1f1;
-    box-shadow:#222 0 0 3px -1px inset;
 }
 
 .boxTitle {
