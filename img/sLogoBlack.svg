@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="790px" height="346px" viewBox="0 0 790 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ruotsalaLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Line" stroke="#000" stroke-width="5" stroke-linecap="square" points="760.5 198 487.607728 182 392.037861 134 295.892272 182.5 23 198.5 295.892272 214.5 392.037861 263 487.607728 215 760.5 199"></polyline>
+        <text id="Ruotsala" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="144" font-weight="normal" letter-spacing="3" fill="#000">
+            <tspan x="153.597656" y="119">Ruotsal</tspan>
+            <tspan x="571.933594" y="119">a</tspan>
+        </text>
+        <text id="R" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="115" font-weight="normal" fill="#000">
+            <tspan x="344" y="217">R</tspan>
+        </text>
+        <text id="C" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="48" font-weight="normal" fill="#000">
+            <tspan x="409" y="210">C</tspan>
+        </text>
+        <text id="C" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="40" font-weight="normal" fill="#000">
+            <tspan x="374" y="246">C</tspan>
+        </text>
+        <text id="Construction-Compani" font-family="MonotypeCorsiva, Monotype Corsiva" font-size="60" font-weight="normal" letter-spacing="1.66666663" fill="#000">
+            <tspan x="119.278212" y="311">Construction Companie</tspan>
+            <tspan x="646.143446" y="311" letter-spacing="1.38888884">s</tspan>
+        </text>
+        <rect id="Rectangle" stroke="#000" stroke-width="8" x="4" y="4" width="781" height="337"></rect>
+    </g>
+</svg>
