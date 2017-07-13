@@ -95,6 +95,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* helper Classes ============================================================= */
+
+.fill {
+    height: 100%;
+    width: 100%;
+}
+
+/* Global Classes ============================================================= */
+
 html, body {
     height: 100%;
 }
@@ -109,6 +118,7 @@ html, button, input, select, textarea,
     top: 0;
     width: 94vw;
     text-align: right;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.50);
 }
 
 .headfoot {
@@ -138,12 +148,15 @@ a:hover {
 
 .landing {
     background-size: cover !important;
-    height: 100%;
     text-align: center;
 }
 
 #homeLanding {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/landing.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #workLanding {
@@ -156,9 +169,16 @@ a:hover {
     max-width: 80vw;
 }
 
+#content {
+    box-shadow: 0 5px 5px 5px rgba(0,0,0, 0.50);
+}
+
 .boxes {
     padding: 1em 2em;
-    /* text-align: justify-all; */
+}
+
+.light {
+    background-color: white;
 }
 
 .dark {
