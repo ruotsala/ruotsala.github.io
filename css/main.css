@@ -158,18 +158,16 @@ a:hover {
 
 .boxes {
     padding: 1em 2em;
-}
-
-.light {
-    background-color: #f1f1f1;
+    /* text-align: justify-all; */
 }
 
 .dark {
+    background-color: #f1f1f1;
 }
 
 .boxTitle {
-    font-size: 1.7em;
-    font-weight: 400;
+    font-size: 1.45em;
+    color: #045;
     text-align: center;
 }
 
